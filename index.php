@@ -109,6 +109,11 @@ include 'changeLog.php';
 	<img src='colorfulcss_logo.jpg'>
 </div>
 
+
+<div class='box instructions'>
+	Download here: <a href='https://github.com/ericjsnover/colorful' class='colorful-text-blue-500'>https://github.com/ericjsnover/colorful</a>
+</div>
+
 <div class='box header colorful-black'>
 	Quickstart
 </div>
