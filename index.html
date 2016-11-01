@@ -30,7 +30,7 @@
 	  }
 	  .box {
 		  width: 100%;
-		  padding: 35px;
+		  padding: 30px;
 		  text-align: center;
 		  font-size: 15px;
 		  text-transform: capitalize;
@@ -52,6 +52,19 @@
 	  }
 	  .box.instructions p.example {
 		  padding: 15px;
+	  }
+	  .changelogBanner {
+		position: fixed;
+		z-index: 99;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		top: 0;
+		left: 0;
+		font-size: 12px;
+		line-height: 0;
+		padding: 0px 0;
+		cursor: pointer;
 	  }
 	  .fixed-link {
 		  position: fixed;
@@ -76,6 +89,11 @@
 
 </head>
 <body class='colorful-grey-900'>
+<br>
+
+<div class='changelogBanner colorful-blue-500'>
+	<p>Version 1.04 is here! Click <a href='#changelog' class='colorful-text-yellow-a2'>here</a> to read what we added!</p>
+</div>
 
 <div class='box'>
 	<img src='colorfulcss_logo.jpg'>
@@ -510,6 +528,28 @@
 
 <div class='box instructions'>
 	<p>Color variables are stored in "_variables.scss". By changing color keys under "Swatches" you can easily implement custom palettes without changing the HTML markup. This file also contains the variables that determine the dark and light text color defaults.</p>
+</div>
+<a name='changelog'></a>
+<div class='box header colorful-black'>
+	Change Log
+</div>
+
+
+<div class='box instructions'>
+<ul>
+	<li>1.04</li>
+
+		<ul>
+			<li>Palettes are now more customizable than ever! Just duplicate a palette template and you can instantly customize all colors and the default text color (light or dark).</li>
+		</ul>
+
+	<li>1.03</li>
+
+		<ul>
+			<li>Finalized the directory structure</li>
+		</ul>
+
+</ul>
 </div>
 
 <div class='box header colorful-black'>
