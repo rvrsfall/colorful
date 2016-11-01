@@ -1,5 +1,12 @@
-<?php $colors = array('red','pink','purple','deep purple','indigo','blue','light blue','cyan','teal','green','light green','lime','yellow','amber','orange','deep orange','brown','grey','blue grey'); ?>
-<?php $colors_a = array('red','pink','purple','deep purple','indigo','blue','light blue','cyan','teal','green','light green','lime','yellow','amber','orange','deep orange'); ?>
+<?php
+
+$colors = array('red','pink','purple','deep purple','indigo','blue','light blue','cyan','teal','green','light green','lime','yellow','amber','orange','deep orange','brown','grey','blue grey');
+
+$colors_a = array('red','pink','purple','deep purple','indigo','blue','light blue','cyan','teal','green','light green','lime','yellow','amber','orange','deep orange');
+
+include 'changeLog.php';
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -32,7 +39,7 @@
 	  }
 	  .box {
 		  width: 100%;
-		  padding: 35px;
+		  padding: 30px;
 		  text-align: center;
 		  font-size: 15px;
 		  text-transform: capitalize;
@@ -54,6 +61,19 @@
 	  }
 	  .box.instructions p.example {
 		  padding: 15px;
+	  }
+	  .changelogBanner {
+		position: fixed;
+		z-index: 99;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		top: 0;
+		left: 0;
+		font-size: 12px;
+		line-height: 0;
+		padding: 0px 0;
+		cursor: pointer;
 	  }
 	  .fixed-link {
 		  position: fixed;
@@ -79,6 +99,11 @@
 
 </head>
 <body class='colorful-grey-900'>
+<br>
+
+<div class='changelogBanner colorful-blue-500'>
+	<p>Version <?=$change_log[0]["version"]?> is here! Click <a href='#changelog' class='colorful-text-yellow-a2'>here</a> to read what we added!</p>
+</div>
 
 <div class='box'>
 	<img src='colorfulcss_logo.jpg'>
@@ -232,6 +257,38 @@
 
 <div class='box instructions'>
 	<p>Color variables are stored in "_variables.scss". By changing color keys under "Swatches" you can easily implement custom palettes without changing the HTML markup. This file also contains the variables that determine the dark and light text color defaults.</p>
+</div>
+<a name='changelog'></a>
+<div class='box header colorful-black'>
+	Change Log
+</div>
+
+<?php
+/*
+$change_log = array(
+	array(
+		"version"=>"1.04",
+		"changes"=>array(
+			"Palettes are now more customizable than ever!"
+		)
+	)
+);
+*/
+?>
+
+<div class='box instructions'>
+<ul>
+<?php foreach($change_log as $entry): ?>
+	<li><?=$entry["version"]?></li>
+
+		<ul>
+<?php foreach($entry["changes"] as $change): ?>
+			<li><?=$change?></li>
+<?php endforeach; ?>
+		</ul>
+
+<?php endforeach; ?>
+</ul>
 </div>
 
 <div class='box header colorful-black'>
