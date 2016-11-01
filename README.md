@@ -15,4 +15,4 @@ Clone the whole repository and check out the example.html file.
 Check out the example.php which allows you to build your own tests and mess with the code.
 
 ### Got SASS?
-All of the raw SASS files are available in the /includes directory and are imported into "colorful.scss". Once you've cloned the repo, start poking those files. Don't forget to check out the example.html (or example.php) file to learn about how to quickly change around the SASS. 
+All of the SASS partials are prefixed with "_" and are imported into "colorful.scss". Once you've cloned the repo, start poking those files. Don't forget to check out the example.html (or example.php) file to learn about how to quickly change around the SASS. 
