@@ -5,14 +5,15 @@ Colorful is intended for both designers and non-designers. Designers will apreci
 ### Example Use
 class="colorful-green-500"
 
-### Quick Use
-Just click on the file called colorful.css and copy the code into your project. It will give you all of the classes using the default color palette. 
-
-### Not sure where to start?
-Clone the whole repository and check out the example.html file. 
-
-### Run a LAMP server?
-Check out the example.php which allows you to build your own tests and mess with the code.
+### No SASS, No Problem
+All of the CSS is compiled down to a lightweight file. Just drop the file into your project and link to it. That's it!
 
 ### Got SASS?
-All of the SASS partials are prefixed with "_" and are imported into "colorful.scss". Once you've cloned the repo, start poking those files. Don't forget to check out the example.html (or example.php) file to learn about how to quickly change around the SASS. 
+All of the SASS partials are prefixed with "_" and are imported into "colorful.scss". Once you've cloned the repo, start poking those files. Don't forget to check out the example.html (or example.php) file to learn about how to quickly change around the SASS.
+
+### Not sure where to start?
+Check out the example page here:
+https://ericjsnover.github.io/colorful/
+
+### Run a LAMP server?
+Check out the index.php which allows you to build your own tests and mess with the code without writing from scratch in HTML. 
