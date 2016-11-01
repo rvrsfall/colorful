@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Colorful.scss</title>
+  <meta name="description" content="Colorful.scss is a CSS-framework for implementing">
+  <meta name="author" content="Eric J Snover">
+
+  <link rel="stylesheet" href="colorful.css">
+
+  <style>
+	  * {
+		  box-sizing: border-box;
+	  }
+	  body {
+		  margin: 0;
+		  color: #fff;
+		  font-family: 'Helvetica';
+		  max-width: 800px;
+		  margin: 0 auto;
+	  }
+	  a {
+		  text-decoration: none;
+	  }
+	  img {
+		  width: 100%;
+		  max-width: 450px;
+		  text-align: center;
+	  }
+	  .box {
+		  width: 100%;
+		  padding: 35px;
+		  text-align: center;
+		  font-size: 15px;
+		  text-transform: capitalize;
+	  }
+	  .box.footer {
+		  font-size: 11px;
+		  text-align: left;
+		  padding: 50px;
+	  }
+	  .box.header {
+	  		font-size: 20px;
+	  		padding: 30px;
+	  		text-transform: none;
+	  }
+	  .box.instructions {
+		  text-align: left;
+		  text-transform: none;
+		  line-height: 1.5em;
+	  }
+	  .box.instructions p.example {
+		  padding: 15px;
+	  }
+	  .fixed-link {
+		  position: fixed;
+		  z-index: 99;
+		  width: 100%;
+		  height: 50px;
+		 bottom: 0;
+		  left: 0;
+		  cursor: pointer;
+	  }
+	  .fixed-link .mini-link:hover {
+		  opacity: .7;
+	  }
+	  .fixed-link .mini-link {
+		  		  width: 4.26315789474%;
+		  height: 30px;
+		  margin: 10px .5%;
+		  float: left;
+		  transition: opacity .3s;
+	  }
+  </style>
+
+</head>
+<body class='colorful-grey-900'>
+
+<div class='box'>
+	<img src='colorfulcss_logo.jpg'>
+</div>
+
+<div class='box header colorful-black'>
+	Quickstart
+</div>
+
+<div class='box instructions'>
+	<p>To use colorful.css, just throw a class on any html element like this:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-green-500</p>
+	<p>The above class would result in an html element having a background of the primary green. In other words, you'd get this:</p>
+	<p class='example colorful-green-500'></p>
+	<p>The class names are broken down into a few parts separated by hyphens.</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>colorful</p>
+	<p>The first part is just a prefix that helps prevent conflicts with other classses in the project.</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>green</p>
+	<p>The second part is the color name. For a full list of color names <a href='#swatches' class='colorful-text-blue-500'>click here</a>.</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>500</p>
+	<p>The final part is the hue of the color you picked in the second part. For a full list of available hues <a href='#swatches' class='colorful-text-blue-500'>click here</a>.</p>
+	<p>Now that you know the basics, feel free to keep reading about everything Colorful.css has to offer, or click one of the colors at the top to be taken to examples of swatches!</p>
+</div>
+
+
+<div class='box header colorful-black'>
+	Text Color
+</div>
+
+<div class='box instructions'>
+	<p>Take a quick look at this example:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-green-500</p>
+	<p>This class would make the background-color green with a hue of 500 (the primary hue).</p>
+	<p>By default, a colorful class will affect the background-color property. To change an element's text color property, just modify the class to the following:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-text-green-500</p>
+	<p>By adding the keyword "text" after the prefix "colorful" and before the "color" keyword, the text color will now be affected rather than the background-color.</p>
+</div>
+
+<div class='box header colorful-black'>
+	Alternative Background Syntax
+</div>
+
+<div class='box instructions'>
+	<p>If you would rather specify that a class targets the background-color, you can also use:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-bg-green-500</p>
+	<p>This class will work exactly the same as:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-green-500</p>
+	<p>When working on teams that may be unfamiliar with Colorful.scss, you may find it useful to use the more semantic syntax to literally state that the class is affecting the background. Your choice!</p>
+</div>
+
+<div class='box header colorful-black'>
+	Automatic Text Color
+</div>
+
+<div class='box instructions'>
+	<p>When no text color is specified on an element with a Colorful.css class, the text color defaults to either dark text (black) or light text (white). For example:</p>
+	<p class='example colorful-blue-500'>.colorful-blue-500</p>
+	<p class='example colorful-blue-400'>.colorful-blue-400</p>
+	<p>In the first example, the text color defaults to light text and in the second example the text color defaults to dark text.</p>
+	<p class='colorful-text-grey-800'>These defaults are based on the Google Material guidelines and can be customized in the SCSS file "_fontcolor.scss".</p>
+</div>
+
+
+
+<div class='box header colorful-black'>
+	Primary Hues
+</div>
+
+<div class='box instructions'>
+	<p>Primary hues are set to "500". For example, the primary hue of red is:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-red-500</p>
+	<p>will produce..</p>
+	<p class='example colorful-red-500'>.colorful-red-500</p>
+</div>
+
+
+<div class='box header colorful-black'>
+	Accent Colors
+</div>
+
+<div class='box instructions'>
+	<p>Accent colors are extra hues that are great for complimenting primary colors. Accent hues are set to "a100","a200","a400","a700". For example:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-orange-a200</p>
+	<p>will produce..</p>
+	<p class='example colorful-orange-a200'>.colorful-orange-a200</p>
+	<p>To pair a primary blue with an orange accent of A200, you would use the following:</p>
+	<p class='example colorful-blue-500'>.colorful-blue-500</p>
+	<p class='example colorful-orange-a200'>.colorful-orange-a200</p>
+</div>
+
+<div class='box header colorful-black'>
+	Alternative Hue Syntax
+</div>
+
+<div class='box instructions'>
+	<p>The primary way of selecting a green hue of 500 is:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-green-500</p>
+	<p>The alternative syntax is to use a hue based on a range of 0 to 9, with 0 being the lightest hue and 9 being the darkest. For example:</p>
+	<p class='example colorful-bg-black colorful-text-cyan-200'>.colorful-green-5</p>
+	<p>This class has the same hue as ".colorful-green-500".</p>
+	<p class='example colorful-green-500'>.colorful-green-500</p>
+	<p class='example colorful-green-5'>.colorful-green-5</p>
+	<p>The alternative syntax was added to allow designers to think of very linear progression of hues, and to aid in randomly generated colors.</p>
+	<p>Accent colors have the alternative syntax of "A1","A2","A4","A7".</p>
+	<p class='colorful-text-grey-700'>The alternative hue "0" is equivalent to the hue "50"</p>
+</div>
+
+
+<a name='swatches'></a>
+<div class='box header colorful-black'>
+	Color Swatches
+</div>
+
+
+<a name='color_red'></a>
+
+	<div class='box colorful-red-50'>red 50</div>
+	<div class='box colorful-red-100'>red 100</div>
+	<div class='box colorful-red-200'>red 200</div>
+	<div class='box colorful-red-300'>red 300</div>
+	<div class='box colorful-red-400'>red 400</div>
+	<div class='box colorful-red-500'>red 500</div>
+	<div class='box colorful-red-600'>red 600</div>
+	<div class='box colorful-red-700'>red 700</div>
+	<div class='box colorful-red-800'>red 800</div>
+	<div class='box colorful-red-900'>red 900</div>
+<a name='color_pink'></a>
+
+	<div class='box colorful-pink-50'>pink 50</div>
+	<div class='box colorful-pink-100'>pink 100</div>
+	<div class='box colorful-pink-200'>pink 200</div>
+	<div class='box colorful-pink-300'>pink 300</div>
+	<div class='box colorful-pink-400'>pink 400</div>
+	<div class='box colorful-pink-500'>pink 500</div>
+	<div class='box colorful-pink-600'>pink 600</div>
+	<div class='box colorful-pink-700'>pink 700</div>
+	<div class='box colorful-pink-800'>pink 800</div>
+	<div class='box colorful-pink-900'>pink 900</div>
+<a name='color_purple'></a>
+
+	<div class='box colorful-purple-50'>purple 50</div>
+	<div class='box colorful-purple-100'>purple 100</div>
+	<div class='box colorful-purple-200'>purple 200</div>
+	<div class='box colorful-purple-300'>purple 300</div>
+	<div class='box colorful-purple-400'>purple 400</div>
+	<div class='box colorful-purple-500'>purple 500</div>
+	<div class='box colorful-purple-600'>purple 600</div>
+	<div class='box colorful-purple-700'>purple 700</div>
+	<div class='box colorful-purple-800'>purple 800</div>
+	<div class='box colorful-purple-900'>purple 900</div>
+<a name='color_deeppurple'></a>
+
+	<div class='box colorful-deeppurple-50'>deep purple 50</div>
+	<div class='box colorful-deeppurple-100'>deep purple 100</div>
+	<div class='box colorful-deeppurple-200'>deep purple 200</div>
+	<div class='box colorful-deeppurple-300'>deep purple 300</div>
+	<div class='box colorful-deeppurple-400'>deep purple 400</div>
+	<div class='box colorful-deeppurple-500'>deep purple 500</div>
+	<div class='box colorful-deeppurple-600'>deep purple 600</div>
+	<div class='box colorful-deeppurple-700'>deep purple 700</div>
+	<div class='box colorful-deeppurple-800'>deep purple 800</div>
+	<div class='box colorful-deeppurple-900'>deep purple 900</div>
+<a name='color_indigo'></a>
+
+	<div class='box colorful-indigo-50'>indigo 50</div>
+	<div class='box colorful-indigo-100'>indigo 100</div>
+	<div class='box colorful-indigo-200'>indigo 200</div>
+	<div class='box colorful-indigo-300'>indigo 300</div>
+	<div class='box colorful-indigo-400'>indigo 400</div>
+	<div class='box colorful-indigo-500'>indigo 500</div>
+	<div class='box colorful-indigo-600'>indigo 600</div>
+	<div class='box colorful-indigo-700'>indigo 700</div>
+	<div class='box colorful-indigo-800'>indigo 800</div>
+	<div class='box colorful-indigo-900'>indigo 900</div>
+<a name='color_blue'></a>
+
+	<div class='box colorful-blue-50'>blue 50</div>
+	<div class='box colorful-blue-100'>blue 100</div>
+	<div class='box colorful-blue-200'>blue 200</div>
+	<div class='box colorful-blue-300'>blue 300</div>
+	<div class='box colorful-blue-400'>blue 400</div>
+	<div class='box colorful-blue-500'>blue 500</div>
+	<div class='box colorful-blue-600'>blue 600</div>
+	<div class='box colorful-blue-700'>blue 700</div>
+	<div class='box colorful-blue-800'>blue 800</div>
+	<div class='box colorful-blue-900'>blue 900</div>
+<a name='color_lightblue'></a>
+
+	<div class='box colorful-lightblue-50'>light blue 50</div>
+	<div class='box colorful-lightblue-100'>light blue 100</div>
+	<div class='box colorful-lightblue-200'>light blue 200</div>
+	<div class='box colorful-lightblue-300'>light blue 300</div>
+	<div class='box colorful-lightblue-400'>light blue 400</div>
+	<div class='box colorful-lightblue-500'>light blue 500</div>
+	<div class='box colorful-lightblue-600'>light blue 600</div>
+	<div class='box colorful-lightblue-700'>light blue 700</div>
+	<div class='box colorful-lightblue-800'>light blue 800</div>
+	<div class='box colorful-lightblue-900'>light blue 900</div>
+<a name='color_cyan'></a>
+
+	<div class='box colorful-cyan-50'>cyan 50</div>
+	<div class='box colorful-cyan-100'>cyan 100</div>
+	<div class='box colorful-cyan-200'>cyan 200</div>
+	<div class='box colorful-cyan-300'>cyan 300</div>
+	<div class='box colorful-cyan-400'>cyan 400</div>
+	<div class='box colorful-cyan-500'>cyan 500</div>
+	<div class='box colorful-cyan-600'>cyan 600</div>
+	<div class='box colorful-cyan-700'>cyan 700</div>
+	<div class='box colorful-cyan-800'>cyan 800</div>
+	<div class='box colorful-cyan-900'>cyan 900</div>
+<a name='color_teal'></a>
+
+	<div class='box colorful-teal-50'>teal 50</div>
+	<div class='box colorful-teal-100'>teal 100</div>
+	<div class='box colorful-teal-200'>teal 200</div>
+	<div class='box colorful-teal-300'>teal 300</div>
+	<div class='box colorful-teal-400'>teal 400</div>
+	<div class='box colorful-teal-500'>teal 500</div>
+	<div class='box colorful-teal-600'>teal 600</div>
+	<div class='box colorful-teal-700'>teal 700</div>
+	<div class='box colorful-teal-800'>teal 800</div>
+	<div class='box colorful-teal-900'>teal 900</div>
+<a name='color_green'></a>
+
+	<div class='box colorful-green-50'>green 50</div>
+	<div class='box colorful-green-100'>green 100</div>
+	<div class='box colorful-green-200'>green 200</div>
+	<div class='box colorful-green-300'>green 300</div>
+	<div class='box colorful-green-400'>green 400</div>
+	<div class='box colorful-green-500'>green 500</div>
+	<div class='box colorful-green-600'>green 600</div>
+	<div class='box colorful-green-700'>green 700</div>
+	<div class='box colorful-green-800'>green 800</div>
+	<div class='box colorful-green-900'>green 900</div>
+<a name='color_lightgreen'></a>
+
+	<div class='box colorful-lightgreen-50'>light green 50</div>
+	<div class='box colorful-lightgreen-100'>light green 100</div>
+	<div class='box colorful-lightgreen-200'>light green 200</div>
+	<div class='box colorful-lightgreen-300'>light green 300</div>
+	<div class='box colorful-lightgreen-400'>light green 400</div>
+	<div class='box colorful-lightgreen-500'>light green 500</div>
+	<div class='box colorful-lightgreen-600'>light green 600</div>
+	<div class='box colorful-lightgreen-700'>light green 700</div>
+	<div class='box colorful-lightgreen-800'>light green 800</div>
+	<div class='box colorful-lightgreen-900'>light green 900</div>
+<a name='color_lime'></a>
+
+	<div class='box colorful-lime-50'>lime 50</div>
+	<div class='box colorful-lime-100'>lime 100</div>
+	<div class='box colorful-lime-200'>lime 200</div>
+	<div class='box colorful-lime-300'>lime 300</div>
+	<div class='box colorful-lime-400'>lime 400</div>
+	<div class='box colorful-lime-500'>lime 500</div>
+	<div class='box colorful-lime-600'>lime 600</div>
+	<div class='box colorful-lime-700'>lime 700</div>
+	<div class='box colorful-lime-800'>lime 800</div>
+	<div class='box colorful-lime-900'>lime 900</div>
+<a name='color_yellow'></a>
+
+	<div class='box colorful-yellow-50'>yellow 50</div>
+	<div class='box colorful-yellow-100'>yellow 100</div>
+	<div class='box colorful-yellow-200'>yellow 200</div>
+	<div class='box colorful-yellow-300'>yellow 300</div>
+	<div class='box colorful-yellow-400'>yellow 400</div>
+	<div class='box colorful-yellow-500'>yellow 500</div>
+	<div class='box colorful-yellow-600'>yellow 600</div>
+	<div class='box colorful-yellow-700'>yellow 700</div>
+	<div class='box colorful-yellow-800'>yellow 800</div>
+	<div class='box colorful-yellow-900'>yellow 900</div>
+<a name='color_amber'></a>
+
+	<div class='box colorful-amber-50'>amber 50</div>
+	<div class='box colorful-amber-100'>amber 100</div>
+	<div class='box colorful-amber-200'>amber 200</div>
+	<div class='box colorful-amber-300'>amber 300</div>
+	<div class='box colorful-amber-400'>amber 400</div>
+	<div class='box colorful-amber-500'>amber 500</div>
+	<div class='box colorful-amber-600'>amber 600</div>
+	<div class='box colorful-amber-700'>amber 700</div>
+	<div class='box colorful-amber-800'>amber 800</div>
+	<div class='box colorful-amber-900'>amber 900</div>
+<a name='color_orange'></a>
+
+	<div class='box colorful-orange-50'>orange 50</div>
+	<div class='box colorful-orange-100'>orange 100</div>
+	<div class='box colorful-orange-200'>orange 200</div>
+	<div class='box colorful-orange-300'>orange 300</div>
+	<div class='box colorful-orange-400'>orange 400</div>
+	<div class='box colorful-orange-500'>orange 500</div>
+	<div class='box colorful-orange-600'>orange 600</div>
+	<div class='box colorful-orange-700'>orange 700</div>
+	<div class='box colorful-orange-800'>orange 800</div>
+	<div class='box colorful-orange-900'>orange 900</div>
+<a name='color_deeporange'></a>
+
+	<div class='box colorful-deeporange-50'>deep orange 50</div>
+	<div class='box colorful-deeporange-100'>deep orange 100</div>
+	<div class='box colorful-deeporange-200'>deep orange 200</div>
+	<div class='box colorful-deeporange-300'>deep orange 300</div>
+	<div class='box colorful-deeporange-400'>deep orange 400</div>
+	<div class='box colorful-deeporange-500'>deep orange 500</div>
+	<div class='box colorful-deeporange-600'>deep orange 600</div>
+	<div class='box colorful-deeporange-700'>deep orange 700</div>
+	<div class='box colorful-deeporange-800'>deep orange 800</div>
+	<div class='box colorful-deeporange-900'>deep orange 900</div>
+<a name='color_brown'></a>
+
+	<div class='box colorful-brown-50'>brown 50</div>
+	<div class='box colorful-brown-100'>brown 100</div>
+	<div class='box colorful-brown-200'>brown 200</div>
+	<div class='box colorful-brown-300'>brown 300</div>
+	<div class='box colorful-brown-400'>brown 400</div>
+	<div class='box colorful-brown-500'>brown 500</div>
+	<div class='box colorful-brown-600'>brown 600</div>
+	<div class='box colorful-brown-700'>brown 700</div>
+	<div class='box colorful-brown-800'>brown 800</div>
+	<div class='box colorful-brown-900'>brown 900</div>
+<a name='color_grey'></a>
+
+	<div class='box colorful-grey-50'>grey 50</div>
+	<div class='box colorful-grey-100'>grey 100</div>
+	<div class='box colorful-grey-200'>grey 200</div>
+	<div class='box colorful-grey-300'>grey 300</div>
+	<div class='box colorful-grey-400'>grey 400</div>
+	<div class='box colorful-grey-500'>grey 500</div>
+	<div class='box colorful-grey-600'>grey 600</div>
+	<div class='box colorful-grey-700'>grey 700</div>
+	<div class='box colorful-grey-800'>grey 800</div>
+	<div class='box colorful-grey-900'>grey 900</div>
+<a name='color_bluegrey'></a>
+
+	<div class='box colorful-bluegrey-50'>blue grey 50</div>
+	<div class='box colorful-bluegrey-100'>blue grey 100</div>
+	<div class='box colorful-bluegrey-200'>blue grey 200</div>
+	<div class='box colorful-bluegrey-300'>blue grey 300</div>
+	<div class='box colorful-bluegrey-400'>blue grey 400</div>
+	<div class='box colorful-bluegrey-500'>blue grey 500</div>
+	<div class='box colorful-bluegrey-600'>blue grey 600</div>
+	<div class='box colorful-bluegrey-700'>blue grey 700</div>
+	<div class='box colorful-bluegrey-800'>blue grey 800</div>
+	<div class='box colorful-bluegrey-900'>blue grey 900</div>
+
+<div class='box header colorful-black'>
+	Accent Color Swatches
+</div>
+
+
+	<div class='box colorful-red-a100'>red A100</div>
+	<div class='box colorful-red-a200'>red A200</div>
+	<div class='box colorful-red-a400'>red A400</div>
+	<div class='box colorful-red-a700'>red A700</div>
+
+	<div class='box colorful-pink-a100'>pink A100</div>
+	<div class='box colorful-pink-a200'>pink A200</div>
+	<div class='box colorful-pink-a400'>pink A400</div>
+	<div class='box colorful-pink-a700'>pink A700</div>
+
+	<div class='box colorful-purple-a100'>purple A100</div>
+	<div class='box colorful-purple-a200'>purple A200</div>
+	<div class='box colorful-purple-a400'>purple A400</div>
+	<div class='box colorful-purple-a700'>purple A700</div>
+
+	<div class='box colorful-deeppurple-a100'>deep purple A100</div>
+	<div class='box colorful-deeppurple-a200'>deep purple A200</div>
+	<div class='box colorful-deeppurple-a400'>deep purple A400</div>
+	<div class='box colorful-deeppurple-a700'>deep purple A700</div>
+
+	<div class='box colorful-indigo-a100'>indigo A100</div>
+	<div class='box colorful-indigo-a200'>indigo A200</div>
+	<div class='box colorful-indigo-a400'>indigo A400</div>
+	<div class='box colorful-indigo-a700'>indigo A700</div>
+
+	<div class='box colorful-blue-a100'>blue A100</div>
+	<div class='box colorful-blue-a200'>blue A200</div>
+	<div class='box colorful-blue-a400'>blue A400</div>
+	<div class='box colorful-blue-a700'>blue A700</div>
+
+	<div class='box colorful-lightblue-a100'>light blue A100</div>
+	<div class='box colorful-lightblue-a200'>light blue A200</div>
+	<div class='box colorful-lightblue-a400'>light blue A400</div>
+	<div class='box colorful-lightblue-a700'>light blue A700</div>
+
+	<div class='box colorful-cyan-a100'>cyan A100</div>
+	<div class='box colorful-cyan-a200'>cyan A200</div>
+	<div class='box colorful-cyan-a400'>cyan A400</div>
+	<div class='box colorful-cyan-a700'>cyan A700</div>
+
+	<div class='box colorful-teal-a100'>teal A100</div>
+	<div class='box colorful-teal-a200'>teal A200</div>
+	<div class='box colorful-teal-a400'>teal A400</div>
+	<div class='box colorful-teal-a700'>teal A700</div>
+
+	<div class='box colorful-green-a100'>green A100</div>
+	<div class='box colorful-green-a200'>green A200</div>
+	<div class='box colorful-green-a400'>green A400</div>
+	<div class='box colorful-green-a700'>green A700</div>
+
+	<div class='box colorful-lightgreen-a100'>light green A100</div>
+	<div class='box colorful-lightgreen-a200'>light green A200</div>
+	<div class='box colorful-lightgreen-a400'>light green A400</div>
+	<div class='box colorful-lightgreen-a700'>light green A700</div>
+
+	<div class='box colorful-lime-a100'>lime A100</div>
+	<div class='box colorful-lime-a200'>lime A200</div>
+	<div class='box colorful-lime-a400'>lime A400</div>
+	<div class='box colorful-lime-a700'>lime A700</div>
+
+	<div class='box colorful-yellow-a100'>yellow A100</div>
+	<div class='box colorful-yellow-a200'>yellow A200</div>
+	<div class='box colorful-yellow-a400'>yellow A400</div>
+	<div class='box colorful-yellow-a700'>yellow A700</div>
+
+	<div class='box colorful-amber-a100'>amber A100</div>
+	<div class='box colorful-amber-a200'>amber A200</div>
+	<div class='box colorful-amber-a400'>amber A400</div>
+	<div class='box colorful-amber-a700'>amber A700</div>
+
+	<div class='box colorful-orange-a100'>orange A100</div>
+	<div class='box colorful-orange-a200'>orange A200</div>
+	<div class='box colorful-orange-a400'>orange A400</div>
+	<div class='box colorful-orange-a700'>orange A700</div>
+
+	<div class='box colorful-deeporange-a100'>deep orange A100</div>
+	<div class='box colorful-deeporange-a200'>deep orange A200</div>
+	<div class='box colorful-deeporange-a400'>deep orange A400</div>
+	<div class='box colorful-deeporange-a700'>deep orange A700</div>
+
+<div class='box header colorful-black'>
+	Advanced Configuration
+</div>
+
+<div class='box instructions'>
+	<p>Color variables are stored in "_variables.scss". By changing color keys under "Swatches" you can easily implement custom palettes without changing the HTML markup. This file also contains the variables that determine the dark and light text color defaults.</p>
+</div>
+
+<div class='box header colorful-black'>
+	License
+</div>
+
+<div class='box instructions'>
+	<p>Colorful.scss is licensed under the Apache 2.0 license, which basically means you are free to use it in any project as long as you give me credit by NOT REMOVING the copyright header in the code. In other words, stealing code sucks so be cool and give credit!</p>
+	<p class='colorful-text-grey-700'>To read the Apache 2.0 license, <a href='http://www.apache.org/licenses/LICENSE-2.0.html' class='colorful-text-blue-500'>click here</a>.</p>
+</div>
+
+<div class='box header colorful-black'>
+	Special Thanks
+</div>
+
+<div class='box instructions'>
+	<p>Since first releasing Colorful.css back in 2014, the reception in the development and design community has been so overwhelmingly positive. The support, use and feedback of the hundreds of creatives who have tried Colorful.scss has been the driving force behind making the code publicly available and open source. I just want to say thanks to everybody who has been part of this journey, you are all awesome!</p>
+	<p>The default color swatches are based entirely on Google's Material Design guidelines If you intend to use the default color swatches, I strongly encourage reading the Google documentation on these guidelines <a href='https://material.google.com' class='colorful-text-blue-500'>here</a>.</p>
+</div>
+
+	<div class='box footer colorful-bg-black'>Copyright 2016 Eric J Snover<br>Licensed under the Apache License, Version 2.0 (the "License");<br>you may not use this file except in compliance with the License.<br>You may obtain a copy of the License at<br>http://www.apache.org/licenses/LICENSE-2.0<br>Unless required by applicable law or agreed to in writing, software<br>distributed under the License is distributed on an "AS IS" BASIS,<br>WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>See the License for the specific language governing permissions and<br>limitations under the License.</div>
+
+<div class='fixed-link colorful-bg-grey-900'>
+	<a href='#color_red'>
+		<div class='mini-link colorful-red-500'></div>
+	</a>
+	<a href='#color_pink'>
+		<div class='mini-link colorful-pink-500'></div>
+	</a>
+	<a href='#color_purple'>
+		<div class='mini-link colorful-purple-500'></div>
+	</a>
+	<a href='#color_deeppurple'>
+		<div class='mini-link colorful-deeppurple-500'></div>
+	</a>
+	<a href='#color_indigo'>
+		<div class='mini-link colorful-indigo-500'></div>
+	</a>
+	<a href='#color_blue'>
+		<div class='mini-link colorful-blue-500'></div>
+	</a>
+	<a href='#color_lightblue'>
+		<div class='mini-link colorful-lightblue-500'></div>
+	</a>
+	<a href='#color_cyan'>
+		<div class='mini-link colorful-cyan-500'></div>
+	</a>
+	<a href='#color_teal'>
+		<div class='mini-link colorful-teal-500'></div>
+	</a>
+	<a href='#color_green'>
+		<div class='mini-link colorful-green-500'></div>
+	</a>
+	<a href='#color_lightgreen'>
+		<div class='mini-link colorful-lightgreen-500'></div>
+	</a>
+	<a href='#color_lime'>
+		<div class='mini-link colorful-lime-500'></div>
+	</a>
+	<a href='#color_yellow'>
+		<div class='mini-link colorful-yellow-500'></div>
+	</a>
+	<a href='#color_amber'>
+		<div class='mini-link colorful-amber-500'></div>
+	</a>
+	<a href='#color_orange'>
+		<div class='mini-link colorful-orange-500'></div>
+	</a>
+	<a href='#color_deeporange'>
+		<div class='mini-link colorful-deeporange-500'></div>
+	</a>
+	<a href='#color_brown'>
+		<div class='mini-link colorful-brown-500'></div>
+	</a>
+	<a href='#color_grey'>
+		<div class='mini-link colorful-grey-500'></div>
+	</a>
+	<a href='#color_bluegrey'>
+		<div class='mini-link colorful-bluegrey-500'></div>
+	</a>
+</div>
+
+</body>
+</html>

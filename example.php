@@ -19,13 +19,15 @@
 		  margin: 0;
 		  color: #fff;
 		  font-family: 'Helvetica';
+		  max-width: 800px;
+		  margin: 0 auto;
 	  }
 	  a {
 		  text-decoration: none;
 	  }
 	  img {
 		  width: 100%;
-		  max-width: 500px;
+		  max-width: 450px;
 		  text-align: center;
 	  }
 	  .box {
@@ -56,43 +58,27 @@
 	  .fixed-link {
 		  position: fixed;
 		  z-index: 99;
-		  width: 90%;
-		  height: 30px;
-		  top: 0;
-		  left: 5%;
-		  opacity: .2;
+		  width: 100%;
+		  height: 50px;
+		 bottom: 0;
+		  left: 0;
 		  cursor: pointer;
-		  transition: opacity .3s;
 	  }
-	  .fixed-link-bottom {
-		  position: fixed;
-		  z-index: 99;
-		  width: auto;
-		  height: auto;
-		  bottom: 0;
-		  right: 0;
-		  font-size: 12px;
-		  opacity: .2;
-		  cursor: pointer;
-		  transition: opacity .3s;
-		  padding: 10px;
-	  }
-	  .fixed-link:hover, .fixed-link-bottom:hover {
+	  .fixed-link .mini-link:hover {
 		  opacity: .7;
 	  }
 	  .fixed-link .mini-link {
 		  <?php $MLWidth = ( 100/count($colors) ); ?>
 		  width: <?=( $MLWidth - 1 )."%"?>;
-		  height: 20px;
-		  margin: 0 .5%;
+		  height: 30px;
+		  margin: 10px .5%;
 		  float: left;
+		  transition: opacity .3s;
 	  }
   </style>
 
 </head>
 <body class='colorful-grey-900'>
-
-<a name='top'></a>
 
 <div class='box'>
 	<img src='colorfulcss_logo.jpg'>
@@ -268,17 +254,13 @@
 
 	<div class='box footer colorful-bg-black'>Copyright <?=date('Y',time())?> Eric J Snover<br>Licensed under the Apache License, Version 2.0 (the "License");<br>you may not use this file except in compliance with the License.<br>You may obtain a copy of the License at<br>http://www.apache.org/licenses/LICENSE-2.0<br>Unless required by applicable law or agreed to in writing, software<br>distributed under the License is distributed on an "AS IS" BASIS,<br>WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>See the License for the specific language governing permissions and<br>limitations under the License.</div>
 
-<div class='fixed-link'>
+<div class='fixed-link colorful-bg-grey-900'>
 <?php foreach($colors as $color): ?>
 	<a href='#color_<?=str_replace(" ","",$color)?>'>
 		<div class='mini-link colorful-<?=str_replace(" ","",$color)?>-500'></div>
 	</a>
 <?php endforeach; ?>
 </div>
-
-<a href='#top' class='colorful-text-black'>
-	<div class='fixed-link-bottom'>Go to top</div>
-</a>
 
 </body>
 </html>
