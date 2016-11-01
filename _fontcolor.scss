@@ -1,0 +1,458 @@
+// --------------------------------
+// Default Font Color
+// --------------------------------
+// Used to apply a default font color depending on the background color. The default font color can be set in the variables section under "Default Font Colors" and should be
+// --------------------------------
+
+// ----------------
+// Red
+// ----------------
+
+.colorful-red-50, .colorful-bg-red-50, .colorful-red-0, .colorful-bg-red-0,
+.colorful-red-100, .colorful-bg-red-100, .colorful-red-1, .colorful-bg-red-1,
+.colorful-red-200, .colorful-bg-red-200, .colorful-red-2, .colorful-bg-red-2,
+.colorful-red-300, .colorful-bg-red-300, .colorful-red-3, .colorful-bg-red-3,
+.colorful-red-a100, .colorful-bg-red-a100, .colorful-red-a1, .colorful-bg-red-a1 {
+	color: $default-font-color-dark;
+}
+
+.colorful-red-400, .colorful-bg-red-400, .colorful-red-4, .colorful-bg-red-4,
+.colorful-red-500, .colorful-bg-red-500, .colorful-red-5, .colorful-bg-red-5,
+.colorful-red-600, .colorful-bg-red-600, .colorful-red-6, .colorful-bg-red-6,
+.colorful-red-700, .colorful-bg-red-700, .colorful-red-7, .colorful-bg-red-7,
+.colorful-red-800, .colorful-bg-red-800, .colorful-red-8, .colorful-bg-red-8,
+.colorful-red-900, .colorful-bg-red-900, .colorful-red-9, .colorful-bg-red-9,
+.colorful-red-a200, .colorful-bg-red-a200, .colorful-red-a2, .colorful-bg-red-a2,
+.colorful-red-a400, .colorful-bg-red-a400, .colorful-red-a4, .colorful-bg-red-a4,
+.colorful-red-a700, .colorful-bg-red-a700, .colorful-red-a7, .colorful-bg-red-a7 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Pink
+// ----------------
+
+.colorful-pink-50, .colorful-bg-pink-50, .colorful-pink-0, .colorful-bg-pink-0,
+.colorful-pink-100, .colorful-bg-pink-100, .colorful-pink-1, .colorful-bg-pink-1,
+.colorful-pink-200, .colorful-bg-pink-200, .colorful-pink-2, .colorful-bg-pink-2,
+.colorful-pink-a100, .colorful-bg-pink-a100, .colorful-pink-a1, .colorful-bg-pink-a1 {
+	color: $default-font-color-dark;
+}
+
+.colorful-pink-300, .colorful-bg-pink-300, .colorful-pink-3, .colorful-bg-pink-3,
+.colorful-pink-400, .colorful-bg-pink-400, .colorful-pink-4, .colorful-bg-pink-4,
+.colorful-pink-500, .colorful-bg-pink-500, .colorful-pink-5, .colorful-bg-pink-5,
+.colorful-pink-600, .colorful-bg-pink-600, .colorful-pink-6, .colorful-bg-pink-6,
+.colorful-pink-700, .colorful-bg-pink-700, .colorful-pink-7, .colorful-bg-pink-7,
+.colorful-pink-800, .colorful-bg-pink-800, .colorful-pink-8, .colorful-bg-pink-8,
+.colorful-pink-900, .colorful-bg-pink-900, .colorful-pink-9, .colorful-bg-pink-9,
+.colorful-pink-a200, .colorful-bg-pink-a200, .colorful-pink-a2, .colorful-bg-pink-a2,
+.colorful-pink-a400, .colorful-bg-pink-a400, .colorful-pink-a4, .colorful-bg-pink-a4,
+.colorful-pink-a700, .colorful-bg-pink-a700, .colorful-pink-a7, .colorful-bg-pink-a7 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Purple
+// ----------------
+
+.colorful-purple-50, .colorful-bg-purple-50, .colorful-purple-0, .colorful-bg-purple-0,
+.colorful-purple-100, .colorful-bg-purple-100, .colorful-purple-1, .colorful-bg-purple-1,
+.colorful-purple-200, .colorful-bg-purple-200, .colorful-purple-2, .colorful-bg-purple-2,
+.colorful-purple-a100, .colorful-bg-purple-a100, .colorful-purple-a1, .colorful-bg-purple-a1 {
+	color: $default-font-color-dark;
+}
+
+.colorful-purple-300, .colorful-bg-purple-300, .colorful-purple-3, .colorful-bg-purple-3,
+.colorful-purple-400, .colorful-bg-purple-400, .colorful-purple-4, .colorful-bg-purple-4,
+.colorful-purple-500, .colorful-bg-purple-500, .colorful-purple-5, .colorful-bg-purple-5,
+.colorful-purple-600, .colorful-bg-purple-600, .colorful-purple-6, .colorful-bg-purple-6,
+.colorful-purple-700, .colorful-bg-purple-700, .colorful-purple-7, .colorful-bg-purple-7,
+.colorful-purple-800, .colorful-bg-purple-800, .colorful-purple-8, .colorful-bg-purple-8,
+.colorful-purple-900, .colorful-bg-purple-900, .colorful-purple-9, .colorful-bg-purple-9,
+.colorful-purple-a200, .colorful-bg-purple-a200, .colorful-purple-a2, .colorful-bg-purple-a2,
+.colorful-purple-a400, .colorful-bg-purple-a400, .colorful-purple-a4, .colorful-bg-purple-a4,
+.colorful-purple-a700, .colorful-bg-purple-a700, .colorful-purple-a7, .colorful-bg-purple-a7 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Deep Purple
+// ----------------
+
+.colorful-deeppurple-50, .colorful-bg-deeppurple-50, .colorful-deeppurple-0, .colorful-bg-deeppurple-0,
+.colorful-deeppurple-100, .colorful-bg-deeppurple-100, .colorful-deeppurple-1, .colorful-bg-deeppurple-1,
+.colorful-deeppurple-200, .colorful-bg-deeppurple-200, .colorful-deeppurple-2, .colorful-bg-deeppurple-2,
+.colorful-deeppurple-a100, .colorful-bg-deeppurple-a100, .colorful-deeppurple-a1, .colorful-bg-deeppurple-a1 {
+	color: $default-font-color-dark;
+}
+
+.colorful-deeppurple-300, .colorful-bg-deeppurple-300, .colorful-deeppurple-3, .colorful-bg-deeppurple-3,
+.colorful-deeppurple-400, .colorful-bg-deeppurple-400, .colorful-deeppurple-4, .colorful-bg-deeppurple-4,
+.colorful-deeppurple-500, .colorful-bg-deeppurple-500, .colorful-deeppurple-5, .colorful-bg-deeppurple-5,
+.colorful-deeppurple-600, .colorful-bg-deeppurple-600, .colorful-deeppurple-6, .colorful-bg-deeppurple-6,
+.colorful-deeppurple-700, .colorful-bg-deeppurple-700, .colorful-deeppurple-7, .colorful-bg-deeppurple-7,
+.colorful-deeppurple-800, .colorful-bg-deeppurple-800, .colorful-deeppurple-8, .colorful-bg-deeppurple-8,
+.colorful-deeppurple-900, .colorful-bg-deeppurple-900, .colorful-deeppurple-9, .colorful-bg-deeppurple-9,
+.colorful-deeppurple-a200, .colorful-bg-deeppurple-a200, .colorful-deeppurple-a2, .colorful-bg-deeppurple-a2,
+.colorful-deeppurple-a400, .colorful-bg-deeppurple-a400, .colorful-deeppurple-a4, .colorful-bg-deeppurple-a4,
+.colorful-deeppurple-a700, .colorful-bg-deeppurple-a700, .colorful-deeppurple-a7, .colorful-bg-deeppurple-a7 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Indigo
+// ----------------
+
+.colorful-indigo-50, .colorful-bg-indigo-50, .colorful-indigo-0, .colorful-bg-indigo-0,
+.colorful-indigo-100, .colorful-bg-indigo-100, .colorful-indigo-1, .colorful-bg-indigo-1,
+.colorful-indigo-200, .colorful-bg-indigo-200, .colorful-indigo-2, .colorful-bg-indigo-2,
+.colorful-indigo-a100, .colorful-bg-indigo-a100, .colorful-indigo-a1, .colorful-bg-indigo-a1 {
+	color: $default-font-color-dark;
+}
+
+.colorful-indigo-300, .colorful-bg-indigo-300, .colorful-indigo-3, .colorful-bg-indigo-3,
+.colorful-indigo-400, .colorful-bg-indigo-400, .colorful-indigo-4, .colorful-bg-indigo-4,
+.colorful-indigo-500, .colorful-bg-indigo-500, .colorful-indigo-5, .colorful-bg-indigo-5,
+.colorful-indigo-600, .colorful-bg-indigo-600, .colorful-indigo-6, .colorful-bg-indigo-6,
+.colorful-indigo-700, .colorful-bg-indigo-700, .colorful-indigo-7, .colorful-bg-indigo-7,
+.colorful-indigo-800, .colorful-bg-indigo-800, .colorful-indigo-8, .colorful-bg-indigo-8,
+.colorful-indigo-900, .colorful-bg-indigo-900, .colorful-indigo-9, .colorful-bg-indigo-9,
+.colorful-indigo-a200, .colorful-bg-indigo-a200, .colorful-indigo-a2, .colorful-bg-indigo-a2,
+.colorful-indigo-a400, .colorful-bg-indigo-a400, .colorful-indigo-a4, .colorful-bg-indigo-a4,
+.colorful-indigo-a700, .colorful-bg-indigo-a700, .colorful-indigo-a7, .colorful-bg-indigo-a7 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Blue
+// ----------------
+
+.colorful-blue-50, .colorful-bg-blue-50, .colorful-blue-0, .colorful-bg-blue-0,
+.colorful-blue-100, .colorful-bg-blue-100, .colorful-blue-1, .colorful-bg-blue-1,
+.colorful-blue-200, .colorful-bg-blue-200, .colorful-blue-2, .colorful-bg-blue-2,
+.colorful-blue-300, .colorful-bg-blue-300, .colorful-blue-3, .colorful-bg-blue-3,
+.colorful-blue-400, .colorful-bg-blue-400, .colorful-blue-4, .colorful-bg-blue-4,
+.colorful-blue-a100, .colorful-bg-blue-a100, .colorful-blue-a1, .colorful-bg-blue-a1 {
+	color: $default-font-color-dark;
+}
+
+.colorful-blue-500, .colorful-bg-blue-500, .colorful-blue-5, .colorful-bg-blue-5,
+.colorful-blue-600, .colorful-bg-blue-600, .colorful-blue-6, .colorful-bg-blue-6,
+.colorful-blue-700, .colorful-bg-blue-700, .colorful-blue-7, .colorful-bg-blue-7,
+.colorful-blue-800, .colorful-bg-blue-800, .colorful-blue-8, .colorful-bg-blue-8,
+.colorful-blue-900, .colorful-bg-blue-900, .colorful-blue-9, .colorful-bg-blue-9,
+.colorful-blue-a200, .colorful-bg-blue-a200, .colorful-blue-a2, .colorful-bg-blue-a2,
+.colorful-blue-a400, .colorful-bg-blue-a400, .colorful-blue-a4, .colorful-bg-blue-a4,
+.colorful-blue-a700, .colorful-bg-blue-a700, .colorful-blue-a7, .colorful-bg-blue-a7 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Light Blue
+// ----------------
+
+.colorful-lightblue-50, .colorful-bg-lightblue-50, .colorful-lightblue-0, .colorful-bg-lightblue-0,
+.colorful-lightblue-100, .colorful-bg-lightblue-100, .colorful-lightblue-1, .colorful-bg-lightblue-1,
+.colorful-lightblue-200, .colorful-bg-lightblue-200, .colorful-lightblue-2, .colorful-bg-lightblue-2,
+.colorful-lightblue-300, .colorful-bg-lightblue-300, .colorful-lightblue-3, .colorful-bg-lightblue-3,
+.colorful-lightblue-400, .colorful-bg-lightblue-400, .colorful-lightblue-4, .colorful-bg-lightblue-4,
+.colorful-lightblue-500, .colorful-bg-lightblue-500, .colorful-lightblue-5, .colorful-bg-lightblue-5,
+.colorful-lightblue-a100, .colorful-bg-lightblue-a100, .colorful-lightblue-a1, .colorful-bg-lightblue-a1,
+.colorful-lightblue-a400, .colorful-bg-lightblue-a400, .colorful-lightblue-a4, .colorful-bg-lightblue-a4,
+.colorful-lightblue-a200, .colorful-bg-lightblue-a200, .colorful-lightblue-a2, .colorful-bg-lightblue-a2 {
+	color: $default-font-color-dark;
+}
+
+.colorful-lightblue-600, .colorful-bg-lightblue-600, .colorful-lightblue-6, .colorful-bg-lightblue-6,
+.colorful-lightblue-700, .colorful-bg-lightblue-700, .colorful-lightblue-7, .colorful-bg-lightblue-7,
+.colorful-lightblue-800, .colorful-bg-lightblue-800, .colorful-lightblue-8, .colorful-bg-lightblue-8,
+.colorful-lightblue-900, .colorful-bg-lightblue-900, .colorful-lightblue-9, .colorful-bg-lightblue-9,
+.colorful-lightblue-a700, .colorful-bg-lightblue-a700, .colorful-lightblue-a7, .colorful-bg-lightblue-a7 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Cyan
+// ----------------
+
+.colorful-cyan-50, .colorful-bg-cyan-50, .colorful-cyan-0, .colorful-bg-cyan-0,
+.colorful-cyan-100, .colorful-bg-cyan-100, .colorful-cyan-1, .colorful-bg-cyan-1,
+.colorful-cyan-200, .colorful-bg-cyan-200, .colorful-cyan-2, .colorful-bg-cyan-2,
+.colorful-cyan-300, .colorful-bg-cyan-300, .colorful-cyan-3, .colorful-bg-cyan-3,
+.colorful-cyan-400, .colorful-bg-cyan-400, .colorful-cyan-4, .colorful-bg-cyan-4,
+.colorful-cyan-500, .colorful-bg-cyan-500, .colorful-cyan-5, .colorful-bg-cyan-5,
+.colorful-cyan-600, .colorful-bg-cyan-600, .colorful-cyan-6, .colorful-bg-cyan-6,
+.colorful-cyan-a100, .colorful-bg-cyan-a100, .colorful-cyan-a1, .colorful-bg-cyan-a1,
+.colorful-cyan-a200, .colorful-bg-cyan-a200, .colorful-cyan-a2, .colorful-bg-cyan-a2,
+.colorful-cyan-a400, .colorful-bg-cyan-a400, .colorful-cyan-a4, .colorful-bg-cyan-a4,
+.colorful-cyan-a700, .colorful-bg-cyan-a700, .colorful-cyan-a7, .colorful-bg-cyan-a7 {
+	color: $default-font-color-dark;
+}
+
+.colorful-cyan-700, .colorful-bg-cyan-700, .colorful-cyan-7, .colorful-bg-cyan-7,
+.colorful-cyan-800, .colorful-bg-cyan-800, .colorful-cyan-8, .colorful-bg-cyan-8,
+.colorful-cyan-900, .colorful-bg-cyan-900, .colorful-cyan-9, .colorful-bg-cyan-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Teal
+// ----------------
+
+.colorful-teal-50, .colorful-bg-teal-50, .colorful-teal-0, .colorful-bg-teal-0,
+.colorful-teal-100, .colorful-bg-teal-100, .colorful-teal-1, .colorful-bg-teal-1,
+.colorful-teal-200, .colorful-bg-teal-200, .colorful-teal-2, .colorful-bg-teal-2,
+.colorful-teal-300, .colorful-bg-teal-300, .colorful-teal-3, .colorful-bg-teal-3,
+.colorful-teal-400, .colorful-bg-teal-400, .colorful-teal-4, .colorful-bg-teal-4,
+.colorful-teal-a100, .colorful-bg-teal-a100, .colorful-teal-a1, .colorful-bg-teal-a1,
+.colorful-teal-a200, .colorful-bg-teal-a200, .colorful-teal-a2, .colorful-bg-teal-a2,
+.colorful-teal-a400, .colorful-bg-teal-a400, .colorful-teal-a4, .colorful-bg-teal-a4,
+.colorful-teal-a700, .colorful-bg-teal-a700, .colorful-teal-a7, .colorful-bg-teal-a7 {
+	color: $default-font-color-dark;
+}
+
+.colorful-teal-500, .colorful-bg-teal-500, .colorful-teal-5, .colorful-bg-teal-5,
+.colorful-teal-600, .colorful-bg-teal-600, .colorful-teal-6, .colorful-bg-teal-6,
+.colorful-teal-700, .colorful-bg-teal-700, .colorful-teal-7, .colorful-bg-teal-7,
+.colorful-teal-800, .colorful-bg-teal-800, .colorful-teal-8, .colorful-bg-teal-8,
+.colorful-teal-900, .colorful-bg-teal-900, .colorful-teal-9, .colorful-bg-teal-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Green
+// ----------------
+
+.colorful-green-50, .colorful-bg-green-50, .colorful-green-0, .colorful-bg-green-0,
+.colorful-green-100, .colorful-bg-green-100, .colorful-green-1, .colorful-bg-green-1,
+.colorful-green-200, .colorful-bg-green-200, .colorful-green-2, .colorful-bg-green-2,
+.colorful-green-300, .colorful-bg-green-300, .colorful-green-3, .colorful-bg-green-3,
+.colorful-green-400, .colorful-bg-green-400, .colorful-green-4, .colorful-bg-green-4,
+.colorful-green-500, .colorful-bg-green-500, .colorful-green-5, .colorful-bg-green-5,
+.colorful-green-a100, .colorful-bg-green-a100, .colorful-green-a1, .colorful-bg-green-a1,
+.colorful-green-a200, .colorful-bg-green-a200, .colorful-green-a2, .colorful-bg-green-a2,
+.colorful-green-a400, .colorful-bg-green-a400, .colorful-green-a4, .colorful-bg-green-a4,
+.colorful-green-a700, .colorful-bg-green-a700, .colorful-green-a7, .colorful-bg-green-a7 {
+	color: $default-font-color-dark;
+}
+
+.colorful-green-600, .colorful-bg-green-600, .colorful-green-6, .colorful-bg-green-6,
+.colorful-green-700, .colorful-bg-green-700, .colorful-green-7, .colorful-bg-green-7,
+.colorful-green-800, .colorful-bg-green-800, .colorful-green-8, .colorful-bg-green-8,
+.colorful-green-900, .colorful-bg-green-900, .colorful-green-9, .colorful-bg-green-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Light Green
+// ----------------
+
+
+
+.colorful-lightgreen-50, .colorful-bg-lightgreen-50, .colorful-lightgreen-0, .colorful-bg-lightgreen-0,
+.colorful-lightgreen-100, .colorful-bg-lightgreen-100, .colorful-lightgreen-1, .colorful-bg-lightgreen-1,
+.colorful-lightgreen-200, .colorful-bg-lightgreen-200, .colorful-lightgreen-2, .colorful-bg-lightgreen-2,
+.colorful-lightgreen-300, .colorful-bg-lightgreen-300, .colorful-lightgreen-3, .colorful-bg-lightgreen-3,
+.colorful-lightgreen-400, .colorful-bg-lightgreen-400, .colorful-lightgreen-4, .colorful-bg-lightgreen-4,
+.colorful-lightgreen-500, .colorful-bg-lightgreen-500, .colorful-lightgreen-5, .colorful-bg-lightgreen-5,
+.colorful-lightgreen-600, .colorful-bg-lightgreen-600, .colorful-lightgreen-6, .colorful-bg-lightgreen-6,
+.colorful-lightgreen-a100, .colorful-bg-lightgreen-a100, .colorful-lightgreen-a1, .colorful-bg-lightgreen-a1,
+.colorful-lightgreen-a200, .colorful-bg-lightgreen-a200, .colorful-lightgreen-a2, .colorful-bg-lightgreen-a2,
+.colorful-lightgreen-a400, .colorful-bg-lightgreen-a400, .colorful-lightgreen-a4, .colorful-bg-lightgreen-a4,
+.colorful-lightgreen-a700, .colorful-bg-lightgreen-a700, .colorful-lightgreen-a7, .colorful-bg-lightgreen-a7 {
+	color: $default-font-color-dark;
+}
+
+.colorful-lightgreen-700, .colorful-bg-lightgreen-700, .colorful-lightgreen-7, .colorful-bg-lightgreen-7,
+.colorful-lightgreen-800, .colorful-bg-lightgreen-800, .colorful-lightgreen-8, .colorful-bg-lightgreen-8,
+.colorful-lightgreen-900, .colorful-bg-lightgreen-900, .colorful-lightgreen-9, .colorful-bg-lightgreen-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Lime
+// ----------------
+
+.colorful-lime-50, .colorful-bg-lime-50, .colorful-lime-0, .colorful-bg-lime-0,
+.colorful-lime-100, .colorful-bg-lime-100, .colorful-lime-1, .colorful-bg-lime-1,
+.colorful-lime-200, .colorful-bg-lime-200, .colorful-lime-2, .colorful-bg-lime-2,
+.colorful-lime-300, .colorful-bg-lime-300, .colorful-lime-3, .colorful-bg-lime-3,
+.colorful-lime-400, .colorful-bg-lime-400, .colorful-lime-4, .colorful-bg-lime-4,
+.colorful-lime-500, .colorful-bg-lime-500, .colorful-lime-5, .colorful-bg-lime-5,
+.colorful-lime-600, .colorful-bg-lime-600, .colorful-lime-6, .colorful-bg-lime-6,
+.colorful-lime-700, .colorful-bg-lime-700, .colorful-lime-7, .colorful-bg-lime-7,
+.colorful-lime-800, .colorful-bg-lime-800, .colorful-lime-8, .colorful-bg-lime-8,
+.colorful-lime-a100, .colorful-bg-lime-a100, .colorful-lime-a1, .colorful-bg-lime-a1,
+.colorful-lime-a200, .colorful-bg-lime-a200, .colorful-lime-a2, .colorful-bg-lime-a2,
+.colorful-lime-a400, .colorful-bg-lime-a400, .colorful-lime-a4, .colorful-bg-lime-a4,
+.colorful-lime-a700, .colorful-bg-lime-a700, .colorful-lime-a7, .colorful-bg-lime-a7 {
+	color: $default-font-color-dark;
+}
+
+.colorful-lime-900, .colorful-bg-lime-900, .colorful-lime-9, .colorful-bg-lime-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Yellow
+// ----------------
+
+.colorful-yellow-50, .colorful-bg-yellow-50, .colorful-yellow-0, .colorful-bg-yellow-0,
+.colorful-yellow-100, .colorful-bg-yellow-100, .colorful-yellow-1, .colorful-bg-yellow-1,
+.colorful-yellow-200, .colorful-bg-yellow-200, .colorful-yellow-2, .colorful-bg-yellow-2,
+.colorful-yellow-300, .colorful-bg-yellow-300, .colorful-yellow-3, .colorful-bg-yellow-3,
+.colorful-yellow-400, .colorful-bg-yellow-400, .colorful-yellow-4, .colorful-bg-yellow-4,
+.colorful-yellow-500, .colorful-bg-yellow-500, .colorful-yellow-5, .colorful-bg-yellow-5,
+.colorful-yellow-600, .colorful-bg-yellow-600, .colorful-yellow-6, .colorful-bg-yellow-6,
+.colorful-yellow-700, .colorful-bg-yellow-700, .colorful-yellow-7, .colorful-bg-yellow-7,
+.colorful-yellow-800, .colorful-bg-yellow-800, .colorful-yellow-8, .colorful-bg-yellow-8,
+.colorful-yellow-900, .colorful-bg-yellow-900, .colorful-yellow-9, .colorful-bg-yellow-9,
+.colorful-yellow-a100, .colorful-bg-yellow-a100, .colorful-yellow-a1, .colorful-bg-yellow-a1,
+.colorful-yellow-a200, .colorful-bg-yellow-a200, .colorful-yellow-a2, .colorful-bg-yellow-a2,
+.colorful-yellow-a400, .colorful-bg-yellow-a400, .colorful-yellow-a4, .colorful-bg-yellow-a4,
+.colorful-yellow-a700, .colorful-bg-yellow-a700, .colorful-yellow-a7, .colorful-bg-yellow-a7 {
+	color: $default-font-color-dark;
+}
+
+// ----------------
+// Amber
+// ----------------
+
+.colorful-amber-50, .colorful-bg-amber-50, .colorful-amber-0, .colorful-bg-amber-0,
+.colorful-amber-100, .colorful-bg-amber-100, .colorful-amber-1, .colorful-bg-amber-1,
+.colorful-amber-200, .colorful-bg-amber-200, .colorful-amber-2, .colorful-bg-amber-2,
+.colorful-amber-300, .colorful-bg-amber-300, .colorful-amber-3, .colorful-bg-amber-3,
+.colorful-amber-400, .colorful-bg-amber-400, .colorful-amber-4, .colorful-bg-amber-4,
+.colorful-amber-500, .colorful-bg-amber-500, .colorful-amber-5, .colorful-bg-amber-5,
+.colorful-amber-600, .colorful-bg-amber-600, .colorful-amber-6, .colorful-bg-amber-6,
+.colorful-amber-700, .colorful-bg-amber-700, .colorful-amber-7, .colorful-bg-amber-7,
+.colorful-amber-800, .colorful-bg-amber-800, .colorful-amber-8, .colorful-bg-amber-8,
+.colorful-amber-900, .colorful-bg-amber-900, .colorful-amber-9, .colorful-bg-amber-9,
+.colorful-amber-a100, .colorful-bg-amber-a100, .colorful-amber-a1, .colorful-bg-amber-a1,
+.colorful-amber-a200, .colorful-bg-amber-a200, .colorful-amber-a2, .colorful-bg-amber-a2,
+.colorful-amber-a400, .colorful-bg-amber-a400, .colorful-amber-a4, .colorful-bg-amber-a4,
+.colorful-amber-a700, .colorful-bg-amber-a700, .colorful-amber-a7, .colorful-bg-amber-a7 {
+	color: $default-font-color-dark;
+}
+
+// ----------------
+// Orange
+// ----------------
+
+.colorful-orange-50, .colorful-bg-orange-50, .colorful-orange-0, .colorful-bg-orange-0,
+.colorful-orange-100, .colorful-bg-orange-100, .colorful-orange-1, .colorful-bg-orange-1,
+.colorful-orange-200, .colorful-bg-orange-200, .colorful-orange-2, .colorful-bg-orange-2,
+.colorful-orange-300, .colorful-bg-orange-300, .colorful-orange-3, .colorful-bg-orange-3,
+.colorful-orange-400, .colorful-bg-orange-400, .colorful-orange-4, .colorful-bg-orange-4,
+.colorful-orange-500, .colorful-bg-orange-500, .colorful-orange-5, .colorful-bg-orange-5,
+.colorful-orange-600, .colorful-bg-orange-600, .colorful-orange-6, .colorful-bg-orange-6,
+.colorful-orange-700, .colorful-bg-orange-700, .colorful-orange-7, .colorful-bg-orange-7,
+.colorful-orange-a100, .colorful-bg-orange-a100, .colorful-orange-a1, .colorful-bg-orange-a1,
+.colorful-orange-a200, .colorful-bg-orange-a200, .colorful-orange-a2, .colorful-bg-orange-a2,
+.colorful-orange-a400, .colorful-bg-orange-a400, .colorful-orange-a4, .colorful-bg-orange-a4,
+.colorful-orange-a700, .colorful-bg-orange-a700, .colorful-orange-a7, .colorful-bg-orange-a7 {
+	color: $default-font-color-dark;
+}
+
+.colorful-orange-800, .colorful-bg-orange-800, .colorful-orange-8, .colorful-bg-orange-8,
+.colorful-orange-900, .colorful-bg-orange-900, .colorful-orange-9, .colorful-bg-orange-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Deep Orange
+// ----------------
+
+.colorful-deeporange-50, .colorful-bg-deeporange-50, .colorful-deeporange-0, .colorful-bg-deeporange-0,
+.colorful-deeporange-100, .colorful-bg-deeporange-100, .colorful-deeporange-1, .colorful-bg-deeporange-1,
+.colorful-deeporange-200, .colorful-bg-deeporange-200, .colorful-deeporange-2, .colorful-bg-deeporange-2,
+.colorful-deeporange-300, .colorful-bg-deeporange-300, .colorful-deeporange-3, .colorful-bg-deeporange-3,
+.colorful-deeporange-400, .colorful-bg-deeporange-400, .colorful-deeporange-4, .colorful-bg-deeporange-4,
+.colorful-deeporange-a100, .colorful-bg-deeporange-a100, .colorful-deeporange-a1, .colorful-bg-deeporange-a1,
+.colorful-deeporange-a200, .colorful-bg-deeporange-a200, .colorful-deeporange-a2, .colorful-bg-deeporange-a2 {
+	color: $default-font-color-dark;
+}
+
+
+
+.colorful-deeporange-500, .colorful-bg-deeporange-500, .colorful-deeporange-5, .colorful-bg-deeporange-5,
+.colorful-deeporange-600, .colorful-bg-deeporange-600, .colorful-deeporange-6, .colorful-bg-deeporange-6,
+.colorful-deeporange-700, .colorful-bg-deeporange-700, .colorful-deeporange-7, .colorful-bg-deeporange-7,
+.colorful-deeporange-800, .colorful-bg-deeporange-800, .colorful-deeporange-8, .colorful-bg-deeporange-8,
+.colorful-deeporange-900, .colorful-bg-deeporange-900, .colorful-deeporange-9, .colorful-bg-deeporange-9,
+.colorful-deeporange-a400, .colorful-bg-deeporange-a400, .colorful-deeporange-a4, .colorful-bg-deeporange-a4,
+.colorful-deeporange-a700, .colorful-bg-deeporange-a700, .colorful-deeporange-a7, .colorful-bg-deeporange-a7 {
+	color: $default-font-color-light;
+}
+// ----------------
+// Brown
+// ----------------
+
+.colorful-brown-50, .colorful-bg-brown-50, .colorful-brown-0, .colorful-bg-brown-0,
+.colorful-brown-100, .colorful-bg-brown-100, .colorful-brown-1, .colorful-bg-brown-1,
+.colorful-brown-200, .colorful-bg-brown-200, .colorful-brown-2, .colorful-bg-brown-2 {
+	color: $default-font-color-dark;
+}
+
+.colorful-brown-300, .colorful-bg-brown-300, .colorful-brown-3, .colorful-bg-brown-3,
+.colorful-brown-400, .colorful-bg-brown-400, .colorful-brown-4, .colorful-bg-brown-4,
+.colorful-brown-500, .colorful-bg-brown-500, .colorful-brown-5, .colorful-bg-brown-5,
+.colorful-brown-600, .colorful-bg-brown-600, .colorful-brown-6, .colorful-bg-brown-6,
+.colorful-brown-700, .colorful-bg-brown-700, .colorful-brown-7, .colorful-bg-brown-7,
+.colorful-brown-800, .colorful-bg-brown-800, .colorful-brown-8, .colorful-bg-brown-8,
+.colorful-brown-900, .colorful-bg-brown-900, .colorful-brown-9, .colorful-bg-brown-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Grey
+// ----------------
+
+.colorful-grey-50, .colorful-bg-grey-50, .colorful-grey-0, .colorful-bg-grey-0,
+.colorful-grey-100, .colorful-bg-grey-100, .colorful-grey-1, .colorful-bg-grey-1,
+.colorful-grey-200, .colorful-bg-grey-200, .colorful-grey-2, .colorful-bg-grey-2,
+.colorful-grey-300, .colorful-bg-grey-300, .colorful-grey-3, .colorful-bg-grey-3,
+.colorful-grey-400, .colorful-bg-grey-400, .colorful-grey-4, .colorful-bg-grey-4,
+.colorful-grey-500, .colorful-bg-grey-500, .colorful-grey-5, .colorful-bg-grey-5 {
+	color: $default-font-color-dark;
+}
+
+.colorful-grey-600, .colorful-bg-grey-600, .colorful-grey-6, .colorful-bg-grey-6,
+.colorful-grey-700, .colorful-bg-grey-700, .colorful-grey-7, .colorful-bg-grey-7,
+.colorful-grey-800, .colorful-bg-grey-800, .colorful-grey-8, .colorful-bg-grey-8,
+.colorful-grey-900, .colorful-bg-grey-900, .colorful-grey-9, .colorful-bg-grey-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Blue Grey
+// ----------------
+
+.colorful-bluegrey-50, .colorful-bg-bluegrey-50, .colorful-bluegrey-0, .colorful-bg-bluegrey-0,
+.colorful-bluegrey-100, .colorful-bg-bluegrey-100, .colorful-bluegrey-1, .colorful-bg-bluegrey-1,
+.colorful-bluegrey-200, .colorful-bg-bluegrey-200, .colorful-bluegrey-2, .colorful-bg-bluegrey-2,
+.colorful-bluegrey-300, .colorful-bg-bluegrey-300, .colorful-bluegrey-3, .colorful-bg-bluegrey-3 {
+	color: $default-font-color-dark;
+}
+
+.colorful-bluegrey-400, .colorful-bg-bluegrey-400, .colorful-bluegrey-4, .colorful-bg-bluegrey-4,
+.colorful-bluegrey-500, .colorful-bg-bluegrey-500, .colorful-bluegrey-5, .colorful-bg-bluegrey-5,
+.colorful-bluegrey-600, .colorful-bg-bluegrey-600, .colorful-bluegrey-6, .colorful-bg-bluegrey-6,
+.colorful-bluegrey-700, .colorful-bg-bluegrey-700, .colorful-bluegrey-7, .colorful-bg-bluegrey-7,
+.colorful-bluegrey-800, .colorful-bg-bluegrey-800, .colorful-bluegrey-8, .colorful-bg-bluegrey-8,
+.colorful-bluegrey-900, .colorful-bg-bluegrey-900, .colorful-bluegrey-9, .colorful-bg-bluegrey-9 {
+	color: $default-font-color-light;
+}
+
+// ----------------
+// Black
+// ----------------
+
+.colorful-black, .colorful-bg-black { color: $default-font-color-light; }
+
+// ----------------
+// White
+// ----------------
+
+.colorful-white, .colorful-bg-white { color: $default-font-color-dark; }
