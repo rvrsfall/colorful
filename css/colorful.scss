@@ -5,11 +5,43 @@
 /* By Eric J Snover													*/
 /* http://ericjsnover.com/projects/colorful							*/
 /* ---------------------------------------------------------------- */
-/* Colors based on Google's Material Design guidelines		        */
+/* Default "material" palette based on                              */
+/* Google's Material Design guidelines 								*/
 /* https://material.google.com/style/color.html#color-color-palette */
 /* ---------------------------------------------------------------- */
 
-@import 'variables';
-@import 'fontcolor';
-@import 'classes';
+// --------------------------------
+// Default Font Colors
+// --------------------------------
+// Value pair seperated by space (no quotes!)
+// First is dark color default, second is light color default
+// --------------------------------
 
+$font-color:#000000,#FFFFFF;
+
+// --------------------------------
+// Color Library
+// --------------------------------
+// Palettes are located in /palettes (default)
+// Change the name of the file to choose a different palette
+// Example: @import '../palettes/YOUR_CUSTOM_PALETTE';
+// --------------------------------
+
+@import '../palettes/material';
+
+// --------------------------------
+// Font Color (optional)
+// --------------------------------
+// Adds default font color based on second index of palette
+// Comment out to remove default text colors
+// **This file was seperated to allow for removability**
+// --------------------------------
+
+@import 'fontcolor';
+
+// --------------------------------
+// Class Library
+// --------------------------------
+// Loads all classes based on palettes
+// --------------------------------
+@import 'classes';

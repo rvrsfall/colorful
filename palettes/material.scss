@@ -1,0 +1,368 @@
+// --------------------------------
+// Instructions
+// --------------------------------
+// All values are in pairs seperated by a coma
+// First: hexcolor
+// Second: 1 for dark text default, 2 for light text default
+// --------------------------------
+
+// ----------------
+// Red
+// ----------------
+
+$colorful-red-50: #FFEBEE, 1;
+$colorful-red-100: #FFCDD2, 1;
+$colorful-red-200: #EF9A9A, 1;
+$colorful-red-300: #E57373, 1;
+$colorful-red-400: #EF5350, 2;
+$colorful-red-500: #F44336, 2;
+$colorful-red-600: #E53935, 2;
+$colorful-red-700: #D32F2F, 2;
+$colorful-red-800: #C62828, 2;
+$colorful-red-900: #B71C1C, 2;
+$colorful-red-a100: #FF8A80, 1;
+$colorful-red-a200: #FF5252, 2;
+$colorful-red-a400: #FF1744, 2;
+$colorful-red-a700: #D50000, 2;
+
+// ----------------
+// Pink
+// ----------------
+
+$colorful-pink-50: #FCE4EC, 1;
+$colorful-pink-100: #F8BBD0, 1;
+$colorful-pink-200: #F48FB1, 1;
+$colorful-pink-300: #F06292, 2;
+$colorful-pink-400: #EC407A, 2;
+$colorful-pink-500: #E91E63, 2;
+$colorful-pink-600: #D81B60, 2;
+$colorful-pink-700: #C2185B, 2;
+$colorful-pink-800: #AD1457, 2;
+$colorful-pink-900: #880E4F, 2;
+$colorful-pink-a100: #FF80AB, 1;
+$colorful-pink-a200: #FF4081, 2;
+$colorful-pink-a400: #F50057, 2;
+$colorful-pink-a700: #C51162, 2;
+
+// ----------------
+// Purple
+// ----------------
+
+$colorful-purple-50: #F3E5F5, 1;
+$colorful-purple-100: #E1BEE7, 1;
+$colorful-purple-200: #CE93D8, 1;
+$colorful-purple-300: #BA68C8, 2;
+$colorful-purple-400: #AB47BC, 2;
+$colorful-purple-500: #9C27B0, 2;
+$colorful-purple-600: #8E24AA, 2;
+$colorful-purple-700: #7B1FA2, 2;
+$colorful-purple-800: #6A1B9A, 2;
+$colorful-purple-900: #4A148C, 2;
+$colorful-purple-a100: #EA80FC, 1;
+$colorful-purple-a200: #E040FB, 2;
+$colorful-purple-a400: #D500F9, 2;
+$colorful-purple-a700: #AA00FF, 2;
+
+// ----------------
+// Deep Purple
+// ----------------
+
+$colorful-deeppurple-50: #EDE7F6, 1;
+$colorful-deeppurple-100: #D1C4E9, 1;
+$colorful-deeppurple-200: #B39DDB, 1;
+$colorful-deeppurple-300: #9575CD, 2;
+$colorful-deeppurple-400: #7E57C2, 2;
+$colorful-deeppurple-500: #673AB7, 2;
+$colorful-deeppurple-600: #5E35B1, 2;
+$colorful-deeppurple-700: #512DA8, 2;
+$colorful-deeppurple-800: #4527A0, 2;
+$colorful-deeppurple-900: #311B92, 2;
+$colorful-deeppurple-a100: #B388FF, 1;
+$colorful-deeppurple-a200: #7C4DFF, 2;
+$colorful-deeppurple-a400: #651FFF, 2;
+$colorful-deeppurple-a700: #6200EA, 2;
+
+// ----------------
+// Indigo
+// ----------------
+
+$colorful-indigo-50: #E8EAF6, 1;
+$colorful-indigo-100: #C5CAE9, 1;
+$colorful-indigo-200: #9FA8DA, 1;
+$colorful-indigo-300: #7986CB, 2;
+$colorful-indigo-400: #5C6BC0, 2;
+$colorful-indigo-500: #3F51B5, 2;
+$colorful-indigo-600: #3949AB, 2;
+$colorful-indigo-700: #303F9F, 2;
+$colorful-indigo-800: #283593, 2;
+$colorful-indigo-900: #1A237E, 2;
+$colorful-indigo-a100: #8C9EFF, 1;
+$colorful-indigo-a200: #536DFE, 2;
+$colorful-indigo-a400: #3D5AFE, 2;
+$colorful-indigo-a700: #304FFE, 2;
+
+// ----------------
+// Blue
+// ----------------
+
+$colorful-blue-50: #E3F2FD, 1;
+$colorful-blue-100: #BBDEFB, 1;
+$colorful-blue-200: #90CAF9, 1;
+$colorful-blue-300: #64B5F6, 1;
+$colorful-blue-400: #42A5F5, 1;
+$colorful-blue-500: #2196F3, 2;
+$colorful-blue-600: #1E88E5, 2;
+$colorful-blue-700: #1976D2, 2;
+$colorful-blue-800: #1565C0, 2;
+$colorful-blue-900: #0D47A1, 2;
+$colorful-blue-a100: #82B1FF, 1;
+$colorful-blue-a200: #448AFF, 2;
+$colorful-blue-a400: #2979FF, 2;
+$colorful-blue-a700: #2962FF, 2;
+
+// ----------------
+// Light Blue
+// ----------------
+
+$colorful-lightblue-50: #E1F5FE, 1;
+$colorful-lightblue-100: #B3E5FC, 1;
+$colorful-lightblue-200: #81D4FA, 1;
+$colorful-lightblue-300: #4FC3F7, 1;
+$colorful-lightblue-400: #29B6F6, 1;
+$colorful-lightblue-500: #03A9F4, 1;
+$colorful-lightblue-600: #039BE5, 2;
+$colorful-lightblue-700: #0288D1, 2;
+$colorful-lightblue-800: #0277BD, 2;
+$colorful-lightblue-900: #01579B, 2;
+$colorful-lightblue-a100: #80D8FF, 1;
+$colorful-lightblue-a200: #40C4FF, 1;
+$colorful-lightblue-a400: #00B0FF, 1;
+$colorful-lightblue-a700: #0091EA, 2;
+
+// ----------------
+// Cyan
+// ----------------
+
+$colorful-cyan-50: #E0F7FA, 1;
+$colorful-cyan-100: #B2EBF2, 1;
+$colorful-cyan-200: #80DEEA, 1;
+$colorful-cyan-300: #4DD0E1, 1;
+$colorful-cyan-400: #26C6DA, 1;
+$colorful-cyan-500: #00BCD4, 1;
+$colorful-cyan-600: #00ACC1, 1;
+$colorful-cyan-700: #0097A7, 2;
+$colorful-cyan-800: #00838F, 2;
+$colorful-cyan-900: #006064, 2;
+$colorful-cyan-a100: #84FFFF, 1;
+$colorful-cyan-a200: #18FFFF, 1;
+$colorful-cyan-a400: #00E5FF, 1;
+$colorful-cyan-a700: #00B8D4, 1;
+
+// ----------------
+// Teal
+// ----------------
+
+$colorful-teal-50: #E0F2F1, 1;
+$colorful-teal-100: #B2DFDB, 1;
+$colorful-teal-200: #80CBC4, 1;
+$colorful-teal-300: #4DB6AC, 1;
+$colorful-teal-400: #26A69A, 1;
+$colorful-teal-500: #009688, 2;
+$colorful-teal-600: #00897B, 2;
+$colorful-teal-700: #00796B, 2;
+$colorful-teal-800: #00695C, 2;
+$colorful-teal-900: #004D40, 2;
+$colorful-teal-a100: #A7FFEB, 1;
+$colorful-teal-a200: #64FFDA, 1;
+$colorful-teal-a400: #1DE9B6, 1;
+$colorful-teal-a700: #00BFA5, 1;
+
+// ----------------
+// Yellow
+// ----------------
+
+$colorful-yellow-50: #FFFDE7, 1;
+$colorful-yellow-100: #FFF9C4, 1;
+$colorful-yellow-200: #FFF59D, 1;
+$colorful-yellow-300: #FFF176, 1;
+$colorful-yellow-400: #FFEE58, 1;
+$colorful-yellow-500: #FFEB3B, 1;
+$colorful-yellow-600: #FDD835, 1;
+$colorful-yellow-700: #FBC02D, 1;
+$colorful-yellow-800: #F9A825, 1;
+$colorful-yellow-900: #F57F17, 1;
+$colorful-yellow-a100: #FFFF8D, 1;
+$colorful-yellow-a200: #FFFF00, 1;
+$colorful-yellow-a400: #FFEA00, 1;
+$colorful-yellow-a700: #FFD600, 1;
+
+// ----------------
+// Green
+// ----------------
+
+$colorful-green-50: #E8F5E9, 1;
+$colorful-green-100: #C8E6C9, 1;
+$colorful-green-200: #A5D6A7, 1;
+$colorful-green-300: #81C784, 1;
+$colorful-green-400: #66BB6A, 1;
+$colorful-green-500: #4CAF50, 1;
+$colorful-green-600: #43A047, 2;
+$colorful-green-700: #388E3C, 2;
+$colorful-green-800: #2E7D32, 2;
+$colorful-green-900: #1B5E20, 2;
+$colorful-green-a100: #B9F6CA, 1;
+$colorful-green-a200: #69F0AE, 1;
+$colorful-green-a400: #00E676, 1;
+$colorful-green-a700: #00C853, 1;
+
+// ----------------
+// Light Green
+// ----------------
+
+$colorful-lightgreen-50: #F1F8E9, 1;
+$colorful-lightgreen-100: #DCEDC8, 1;
+$colorful-lightgreen-200: #C5E1A5, 1;
+$colorful-lightgreen-300: #AED581, 1;
+$colorful-lightgreen-400: #9CCC65, 1;
+$colorful-lightgreen-500: #8BC34A, 1;
+$colorful-lightgreen-600: #7CB342, 1;
+$colorful-lightgreen-700: #689F38, 2;
+$colorful-lightgreen-800: #558B2F, 2;
+$colorful-lightgreen-900: #33691E, 2;
+$colorful-lightgreen-a100: #CCFF90, 1;
+$colorful-lightgreen-a200: #B2FF59, 1;
+$colorful-lightgreen-a400: #76FF03, 1;
+$colorful-lightgreen-a700: #64DD17, 1;
+
+// ----------------
+// Lime
+// ----------------
+
+$colorful-lime-50: #F9FBE7, 1;
+$colorful-lime-100: #F0F4C3, 1;
+$colorful-lime-200: #E6EE9C, 1;
+$colorful-lime-300: #DCE775, 1;
+$colorful-lime-400: #D4E157, 1;
+$colorful-lime-500: #CDDC39, 1;
+$colorful-lime-600: #C0CA33, 1;
+$colorful-lime-700: #AFB42B, 1;
+$colorful-lime-800: #9E9D24, 1;
+$colorful-lime-900: #827717, 2;
+$colorful-lime-a100: #F4FF81, 1;
+$colorful-lime-a200: #EEFF41, 1;
+$colorful-lime-a400: #C6FF00, 1;
+$colorful-lime-a700: #AEEA00, 1;
+
+// ----------------
+// Amber
+// ----------------
+
+$colorful-amber-50: #FFF8E1, 1;
+$colorful-amber-100: #FFECB3, 1;
+$colorful-amber-200: #FFE082, 1;
+$colorful-amber-300: #FFD54F, 1;
+$colorful-amber-400: #FFCA28, 1;
+$colorful-amber-500: #FFC107, 1;
+$colorful-amber-600: #FFB300, 1;
+$colorful-amber-700: #FFA000, 1;
+$colorful-amber-800: #FF8F00, 1;
+$colorful-amber-900: #FF6F00, 1;
+$colorful-amber-a100: #FFE57F, 1;
+$colorful-amber-a200: #FFD740, 1;
+$colorful-amber-a400: #FFC400, 1;
+$colorful-amber-a700: #FFAB00, 1;
+
+// ----------------
+// Orange
+// ----------------
+
+$colorful-orange-50: #FFF3E0, 1;
+$colorful-orange-100: #FFE0B2, 1;
+$colorful-orange-200: #FFCC80, 1;
+$colorful-orange-300: #FFB74D, 1;
+$colorful-orange-400: #FFA726, 1;
+$colorful-orange-500: #FF9800, 1;
+$colorful-orange-600: #FB8C00, 1;
+$colorful-orange-700: #F57C00, 1;
+$colorful-orange-800: #EF6C00, 2;
+$colorful-orange-900: #E65100, 2;
+$colorful-orange-a100: #FFD180, 1;
+$colorful-orange-a200: #FFAB40, 1;
+$colorful-orange-a400: #FF9100, 1;
+$colorful-orange-a700: #FF6D00, 1;
+
+// ----------------
+// Deep Orange
+// ----------------
+
+$colorful-deeporange-50: #FBE9E7, 1;
+$colorful-deeporange-100: #FFCCBC, 1;
+$colorful-deeporange-200: #FFAB91, 1;
+$colorful-deeporange-300: #FF8A65, 1;
+$colorful-deeporange-400: #FF7043, 1;
+$colorful-deeporange-500: #FF5722, 2;
+$colorful-deeporange-600: #F4511E, 2;
+$colorful-deeporange-700: #E64A19, 2;
+$colorful-deeporange-800: #D84315, 2;
+$colorful-deeporange-900: #BF360C, 2;
+$colorful-deeporange-a100: #FF9E80, 1;
+$colorful-deeporange-a200: #FF6E40, 1;
+$colorful-deeporange-a400: #FF3D00, 2;
+$colorful-deeporange-a700: #DD2C00, 2;
+
+// ----------------
+// Brown
+// ----------------
+
+$colorful-brown-50: #EFEBE9, 1;
+$colorful-brown-100: #D7CCC8, 1;
+$colorful-brown-200: #BCAAA4, 1;
+$colorful-brown-300: #A1887F, 2;
+$colorful-brown-400: #8D6E63, 2;
+$colorful-brown-500: #795548, 2;
+$colorful-brown-600: #6D4C41, 2;
+$colorful-brown-700: #5D4037, 2;
+$colorful-brown-800: #4E342E, 2;
+$colorful-brown-900: #3E2723, 2;
+
+// ----------------
+// Grey
+// ----------------
+
+$colorful-grey-50: #FAFAFA, 1;
+$colorful-grey-100: #F5F5F5, 1;
+$colorful-grey-200: #EEEEEE, 1;
+$colorful-grey-300: #E0E0E0, 1;
+$colorful-grey-400: #BDBDBD, 1;
+$colorful-grey-500: #9E9E9E, 1;
+$colorful-grey-600: #757575, 2;
+$colorful-grey-700: #616161, 2;
+$colorful-grey-800: #424242, 2;
+$colorful-grey-900: #212121, 2;
+
+// ----------------
+// Blue Grey
+// ----------------
+
+$colorful-bluegrey-50: #ECEFF1, 1;
+$colorful-bluegrey-100: #CFD8DC, 1;
+$colorful-bluegrey-200: #B0BEC5, 1;
+$colorful-bluegrey-300: #90A4AE, 1;
+$colorful-bluegrey-400: #78909C, 2;
+$colorful-bluegrey-500: #607D8B, 2;
+$colorful-bluegrey-600: #546E7A, 2;
+$colorful-bluegrey-700: #455A64, 2;
+$colorful-bluegrey-800: #37474F, 2;
+$colorful-bluegrey-900: #263238, 2;
+
+// ----------------
+// Black
+// ----------------
+
+$colorful-black: #000000, 2;
+
+// ----------------
+// White
+// ----------------
+
+$colorful-white: #FFFFFF, 1;
