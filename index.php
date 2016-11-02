@@ -75,6 +75,9 @@ include 'changeLog.php';
 		padding: 0px 0;
 		cursor: pointer;
 	  }
+	  img.ad {
+
+	  }
 	  .fixed-link {
 		  position: fixed;
 		  z-index: 99;
@@ -95,6 +98,15 @@ include 'changeLog.php';
 		  float: left;
 		  transition: opacity .3s;
 	  }
+	  .logo-overlay {
+		  position: absolute;
+		  top: 40px;
+		  right: 15px;
+		  width: 200px;
+	  }
+	  .logo {
+		  position: relative;
+	  }
   </style>
 
 </head>
@@ -106,7 +118,8 @@ include 'changeLog.php';
 </div>
 
 <div class='box'>
-	<img src='colorfulcss_logo.jpg'>
+	<img src='colorfulcss_logo.jpg' class='logo' rel='The Colorful.css logo by Eric J Snover'>
+	<img src='ad.svg' class='logo-overlay' rel='Market showing 20,000 downloads since Colorful first launched in 2014!'>
 </div>
 
 
