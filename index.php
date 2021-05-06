@@ -14,7 +14,7 @@ include 'changeLog.php';
 
   <title>Colorful.scss</title>
   <meta name="description" content="Colorful.scss is a CSS-framework for implementing">
-  <meta name="author" content="Eric J Snover">
+  <meta name="author" content="Reverse Fall">
 
   <link rel="stylesheet" href="css/colorful.css">
 
