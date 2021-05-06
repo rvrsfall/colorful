@@ -1,5 +1,5 @@
 # Colorful.css
-Colorful is a simple yet elegant CSS color class library inspired by the Pantone Color Palette. It was designed by Eric J Snover and works with virtually any framework/project given it's prefixed classes ("colorful-"). 
+Colorful is a simple yet elegant CSS color class library inspired by the Pantone Color Palette. It was designed by Eric J Ziegler and works with virtually any framework/project given it's prefixed classes ("colorful-"). 
 Colorful is intended for both designers and non-designers. Designers will apreciate the approach to integrating color palletes throughout a project without having to rewrite them from scratch in CSS. Developers will enjoy a standardized and easy-to-remember syntax that reduces ambiguety and provides a structure for all members of a project team to easily adapt into their workflow. Finally, hobby-coders and anyone looking to colorize their digital web projects will like how there really isn't much work involved in using colorful; no expansive documentation, no advanced syntax to memorize, no pre-required CSS knowledge, and only minimal knowledge of how to add a class to an HTML element like this. Although very narrow in scope, Colorful fills a vital area of web design, colors!
 
 ### Example Use
