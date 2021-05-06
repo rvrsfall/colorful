@@ -13,7 +13,7 @@ All of the SASS partials are prefixed with "_" and are imported into "colorful.s
 
 ### Not sure where to start?
 Check out the example page here:
-https://ericjsnover.github.io/colorful/
+https://rvrsfall.github.io/colorful/
 
 ### Run a LAMP server?
 Check out the index.php which allows you to build your own tests and mess with the code without writing from scratch in HTML. 
